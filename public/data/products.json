@@ -1,0 +1,39 @@
+[
+  {
+    "id": "guruguru-poker",
+    "title": "ぐるぐるポーカー",
+    "description": "手札をぐるぐる回しながら役を狙う、新感覚のパーティポーカー。",
+    "price": 1000,
+    "players": "2〜4人",
+    "playtime": "5分程度",
+    "images": ["/images/products/placeholder.svg"],
+    "tags": ["new"],
+    "externalUrl": "https://example.booth.pm/items/000000",
+    "publishedAt": "2026-05-02"
+  },
+  {
+    "id": "warashibe-no-tomo",
+    "title": "わらしべのとも",
+    "description": "わらしべ長者の物語をテーマにした交換系ボードゲーム。",
+    "price": 2500,
+    "players": "2〜10人",
+    "playtime": "10分程度",
+    "images": ["/images/products/placeholder.svg"],
+    "tags": ["new", "sale"],
+    "externalUrl": "https://example.booth.pm/items/000001",
+    "publishedAt": "2026-05-19"
+  },
+  {
+    "id": "guruguru-poker-2",
+    "title": "ぐるぐるポーカー2",
+    "description": "好評の『ぐるぐるポーカー』に新ルールを追加した第2弾。",
+    "price": 1200,
+    "players": "2〜4人",
+    "playtime": "5分程度",
+    "images": ["/images/products/placeholder.svg"],
+    "tags": ["new"],
+    "externalUrl": "https://example.booth.pm/items/000002",
+    "publishedAt": "2026-05-02"
+  }
+]
+

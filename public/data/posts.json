@@ -1,0 +1,21 @@
+[
+  {
+    "id": "hello",
+    "title": "そろそろ新商品発売予定！",
+    "excerpt": "新作ボードゲームの制作が大詰めです。発売情報をお楽しみに！",
+    "coverImage": "/images/posts/placeholder.svg",
+    "bodyPath": "data/posts/hello.md",
+    "tags": ["blog"],
+    "publishedAt": "2026-04-30"
+  },
+  {
+    "id": "summer",
+    "title": "最近暑いですね〜…",
+    "excerpt": "夏バテに負けずに新作を制作中。冷たい飲み物を片手にぼちぼち進めています。",
+    "coverImage": "/images/posts/placeholder.svg",
+    "bodyPath": "data/posts/design-notes.md",
+    "tags": ["blog"],
+    "publishedAt": "2026-04-29"
+  }
+]
+

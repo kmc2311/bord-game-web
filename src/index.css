@@ -1,0 +1,70 @@
+:root {
+  /* ボドゲ倉庫 カラーパレット（クリーム背景＋茶色アクセント） */
+  --bg: #fdf3d0;          /* メイン背景: 淡いクリーム */
+  --bg-panel: #ffffff;    /* カード等のパネル背景 */
+  --bg-section: #fbecc5;  /* おすすめ・商品一覧の背景 */
+  --text: #6b5d3e;        /* 本文の茶系テキスト */
+  --text-h: #5a4318;      /* 見出し: 濃い茶 */
+  --accent: #8c6a25;      /* アクセント: 茶色（ロゴ・線・フッター） */
+  --accent-hover: #6e511a;
+  --accent-soft: #e2c97a; /* アクセントの淡色 */
+  --border: #e6d7a5;      /* 境界線 */
+  --code-bg: #f6ead0;
+  --shadow:
+    rgba(99, 75, 30, 0.12) 0 8px 20px -6px,
+    rgba(99, 75, 30, 0.08) 0 2px 6px -2px;
+
+  /* タグ色 */
+  --tag-new-fg: #ffffff;
+  --tag-new-bg: #f0a020;     /* オレンジ（お知らせ風） */
+  --tag-sale-fg: #ffffff;
+  --tag-sale-bg: #e0505e;    /* 赤 */
+  --tag-blog-fg: #ffffff;
+  --tag-blog-bg: #5cb85c;    /* 緑 */
+  --tag-other-fg: #ffffff;
+  --tag-other-bg: #9b8a5e;   /* くすんだ茶 */
+
+  --sans: 'Hiragino Maru Gothic ProN', 'Hiragino Sans', 'BIZ UDPGothic',
+    'Yu Gothic UI', 'Meiryo', system-ui, -apple-system, 'Segoe UI', Roboto,
+    sans-serif;
+  --heading: var(--sans);
+  --mono: ui-monospace, Consolas, monospace;
+
+  font: 16px/1.6 var(--sans);
+  letter-spacing: 0.02em;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+}
+
+#root {
+  width: 100%;
+  margin: 0 auto;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--heading);
+  font-weight: 700;
+  color: var(--text-h);
+  line-height: 1.35;
+}
+
+p {
+  margin: 0;
+}
